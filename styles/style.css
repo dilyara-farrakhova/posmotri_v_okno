@@ -274,12 +274,15 @@ a {
 
 .content__video-card-title {
   margin-bottom: 6px;
+  overflow: hidden;
   color: #fff;
   font-family: Oswald;
   font-weight: 700;
   font-size: 30px;
   line-height: 30px;
   text-transform: uppercase;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .content__video-card-description {
@@ -300,6 +303,7 @@ a {
 
 .content__video-card-description-container {
   width: 200px;
+  overflow: hidden;
 }
 
 .content__video-card-thumbnail {
