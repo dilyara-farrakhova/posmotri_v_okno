@@ -69,6 +69,7 @@ a {
 
 .result__video-container {
   position: relative;
+  height: 386px;
 }
 
 .result__video {
